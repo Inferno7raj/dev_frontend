@@ -1,0 +1,101 @@
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.error-message {
+  color: red; /* Set text color to red */
+  font-size: 0.9em; /* Optional: Make the font size smaller */
+  margin-top: 5px; /* Space between the input field and error message */
+}
+
+
+.tabs {
+  display: flex; /* Flexbox layout for tabs */
+  justify-content: space-around; /* Evenly distribute tabs */
+  margin-bottom: 20px; /* Space below the tabs */
+}
+
+.tabs button {
+  padding: 10px 20px; /* Padding for buttons */
+  background-color: #007bff; /* Primary blue color */
+  color: #fff; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.tabs button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.form-content,
+.saved-content {
+  padding: 20px; /* Padding for content sections */
+}
+
+.input-group {
+  margin-bottom: 15px; /* Space between input groups */
+}
+
+.input-group label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below the label */
+}
+
+.input-group input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Padding for inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners for inputs */
+}
+
+.submit-button {
+  padding: 10px 20px; /* Padding for the submit button */
+  background-color: #28a745; /* Green color */
+  color: #fff; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.submit-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.saved-content ul {
+  list-style: none; /* No bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.saved-content li {
+  padding: 10px; /* Padding for list items */
+  background-color: #fff; /* White background for list items */
+  margin-bottom: 10px; /* Space below list items */
+  border-radius: 5px; /* Rounded corners for list items */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for list items */
+}
+
+.edit-delete-icons {
+  float: right; /* Align edit/delete icons to the right */
+}
+
+.edit-icon,
+.delete-icon {
+  margin-left: 10px; /* Space between icons */
+  background: none; /* No background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.edit-icon:hover {
+  color: #28a745; /* Green color on hover */
+}
+
+.delete-icon:hover {
+  color: #dc3545; /* Red color on hover */
+}
